@@ -1,5 +1,5 @@
 {
-  "name": "moola-contracts",
+  "name": "zoodex-contracts",
   "scripts": {
     "build": "hardhat compile",
     "deploy:harmony": "npx hardhat run scripts/deploy.ts --network harmony",
