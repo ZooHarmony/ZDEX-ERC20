@@ -7,8 +7,8 @@
     "deploy:testnet": "npx hardhat run scripts/deploy.ts --network testnet",
     "deploy:mumbai": "npx hardhat run scripts/deploy.ts --network mumbai",
     "deploy:mainnet": "npx hardhat run scripts/deploy.ts --network mainnet",
-    "verify:rinkeby": "npx hardhat verify --network rinkeby 0xec254C7742D943f251445655aFFE5A54Eb63EC7a --libraries libraries.ts",
-    "verify:rinkeby2": "npx hardhat verify --network rinkeby 0x0CF6290EF10c1414ba24A314e96871ED6Ae2FBE3 --libraries libraries.ts"
+    "verify:rinkeby": "npx hardhat verify --network rinkeby  --libraries libraries.ts",
+    "verify:rinkeby2": "npx hardhat verify --network rinkeby  --libraries libraries.ts"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.0",
